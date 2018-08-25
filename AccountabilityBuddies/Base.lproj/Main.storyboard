@@ -44,7 +44,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Create account"/>
                                 <connections>
-                                    <segue destination="4ku-FC-7CD" kind="show" id="2Tk-k4-iWF"/>
+                                    <segue destination="4ku-FC-7CD" kind="showDetail" id="bn8-gV-Dcl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IU1-YX-9Hf">
@@ -268,7 +268,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Let's create a task with a friend"/>
                                 <connections>
-                                    <segue destination="KIl-WW-6YS" kind="show" id="M8l-zb-n9p"/>
+                                    <segue destination="KIl-WW-6YS" kind="show" id="IP1-gF-qZh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -317,12 +317,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Type your text here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="f7X-Z8-c3e">
-                                <rect key="frame" x="39" y="434" width="286" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aa7-Ol-ksa">
                                 <rect key="frame" x="80" y="66" width="215" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -358,13 +352,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2g7-jF-Yjm">
+                                <rect key="frame" x="39" y="432" width="286" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="w1N-AX-AVa"/>
                     </view>
-                    <connections>
-                        <outlet property="ChallengeDescription" destination="f7X-Z8-c3e" id="5Yb-d2-Vji"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nz6-QQ-U4R" sceneMemberID="firstResponder"/>
             </objects>
