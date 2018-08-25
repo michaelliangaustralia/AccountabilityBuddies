@@ -14,6 +14,7 @@
 		6CF408812086BC6B00676BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF4087F2086BC6B00676BA0 /* LaunchScreen.storyboard */; };
 		6CF4088C2086BC6B00676BA0 /* AccountabilityBuddiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF4088B2086BC6B00676BA0 /* AccountabilityBuddiesTests.swift */; };
 		6CF408972086BC6B00676BA0 /* AccountabilityBuddiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF408962086BC6B00676BA0 /* AccountabilityBuddiesUITests.swift */; };
+		9090F8522131492E00D864F5 /* thumb-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 9090F8512131492E00D864F5 /* thumb-up.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6CF408922086BC6B00676BA0 /* AccountabilityBuddiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountabilityBuddiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF408962086BC6B00676BA0 /* AccountabilityBuddiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountabilityBuddiesUITests.swift; sourceTree = "<group>"; };
 		6CF408982086BC6B00676BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9090F8512131492E00D864F5 /* thumb-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-up.png"; path = "../thumb-up.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		6CF4086A2086BC6B00676BA0 = {
 			isa = PBXGroup;
 			children = (
+				9090F8512131492E00D864F5 /* thumb-up.png */,
 				6CF408752086BC6B00676BA0 /* AccountabilityBuddies */,
 				6CF4088A2086BC6B00676BA0 /* AccountabilityBuddiesTests */,
 				6CF408952086BC6B00676BA0 /* AccountabilityBuddiesUITests */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CF408812086BC6B00676BA0 /* LaunchScreen.storyboard in Resources */,
+				9090F8522131492E00D864F5 /* thumb-up.png in Resources */,
 				6CF4087E2086BC6B00676BA0 /* Assets.xcassets in Resources */,
 				6CF4087C2086BC6B00676BA0 /* Main.storyboard in Resources */,
 			);
